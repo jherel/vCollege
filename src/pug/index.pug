@@ -15,10 +15,8 @@ html(lang='es')
         // Font Awesome icons (free version)
         script(src='https://use.fontawesome.com/releases/v5.12.1/js/all.js', crossorigin='anonymous')
 
-        // Google fonts
-        link(href='https://fonts.googleapis.com/css?family=Montserrat:400,700', rel='stylesheet', type='text/css')
-        link(href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic', rel='stylesheet', type='text/css')
-        link(href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700', rel='stylesheet', type='text/css')
+        // fonts
+        link(href="//db.onlinewebfonts.com/c/331ec49c0d78e469c42c1d814dd45838?family=Avenir+Book", rel="stylesheet", type="text/css")
 
         // Core theme CSS (includes Bootstrap)
         link(href='css/styles.css', rel='stylesheet')
@@ -29,7 +27,7 @@ html(lang='es')
         nav#mainNav.navbar.navbar-expand-lg.navbar-dark.fixed-top
             .container
                 a.navbar-brand.js-scroll-trigger(href='#page-top')
-                    img(src='assets/img/logo.png')
+                    img(src='assets/img/logo_white.png')
                 button.navbar-toggler.navbar-toggler-right(type='button', data-toggle='collapse', data-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
                     | Menu
                     i.fas.fa-bars.ml-1
@@ -48,8 +46,9 @@ html(lang='es')
         // Masthead
         header.masthead
             .container
-                .masthead-subheading Buscamos crear nuevas formas de enseñar y aprender!
-                .masthead-heading.text-uppercase vCollege
+                div.box
+                    .masthead-subheading Buscamos crear nuevas formas de enseñar y aprender.
+                    img(src='assets/img/logo_white.png')
                 a.btn.btn-primary.btn-xl.text-uppercase.js-scroll-trigger(href='#services') Descubrir más
 
         // Services
@@ -160,14 +159,14 @@ html(lang='es')
                 ul.timeline
                     li
                         .timeline-image
-                            img.rounded-circle.img-fluid(src='assets/img/about/1.jpg', alt='')
+                            img.rounded-circle.img-fluid(src='assets/img/logos/URJC.png', alt='')
                         .timeline-panel
                             .timeline-heading
-                                h4 Diciembre 2019
-                                h4.subheading Our Humble Beginnings
+                                h4 2018
+                                h4.subheading Nace nuestra idea
                             .timeline-body
                                 p.text-muted
-                                    | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+                                    | En colaboracion con el Departamento de Ciencias y Arquitectura de la Computación, surge la idea de un proyecto para enseñar programación mediante la RV.
                     li.timeline-inverted
                         .timeline-image
                             img.rounded-circle.img-fluid(src='assets/img/about/2.jpg', alt='')
@@ -175,16 +174,6 @@ html(lang='es')
                             .timeline-heading
                                 h4 Enero 2020
                                 h4.subheading An Agency is Born
-                            .timeline-body
-                                p.text-muted
-                                    | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
-                    li
-                        .timeline-image
-                            img.rounded-circle.img-fluid(src='assets/img/about/3.jpg', alt='')
-                        .timeline-panel
-                            .timeline-heading
-                                h4 Abril 2020
-                                h4.subheading Nace vCollege como asociación
                             .timeline-body
                                 p.text-muted
                                     | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
@@ -228,7 +217,7 @@ html(lang='es')
                                 i.fab.fa-linkedin-in
                     .col-lg-3
                         .team-member
-                            img.mx-auto.rounded-circle(src='assets/img/team/3.jpg', alt='')
+                            img.mx-auto.rounded-circle(src='assets/img/team/Sara.jpeg', alt='')
                             h4 Sara
                             p.text-muted Lead Developer
                             a.btn.btn-dark.btn-social.mx-2(href='#!')
