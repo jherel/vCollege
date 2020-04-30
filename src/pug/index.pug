@@ -36,7 +36,7 @@ html(lang='es')
                         li.nav-item
                             a.nav-link.js-scroll-trigger(href='#services') Que hacemos
                         li.nav-item
-                            a.nav-link.js-scroll-trigger(href='#portfolio') Portfolio
+                            a.nav-link.js-scroll-trigger(href='#video') idea
                         li.nav-item
                             a.nav-link.js-scroll-trigger(href='#about') Sobre Nosotros
                         li.nav-item
@@ -80,8 +80,11 @@ html(lang='es')
                         p.text-muted
                             | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
 
-        // Portfolio Grid
-        section#portfolio.page-section.bg-light
+        // Video Grid
+        section#video.py-0.bg-light
+            .embed-responsive.embed-responsive-21by9
+                iframe.embed-responsive-item(src='https://www.youtube.com/embed/K474d1Ixl8g')
+                //-<iframe width="560" height="315" src="https://www.youtube.com/embed/K474d1Ixl8g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         //-
             .container
                 .text-center
@@ -159,7 +162,7 @@ html(lang='es')
                 ul.timeline
                     li
                         .timeline-image
-                            img.rounded-circle.img-fluid(src='assets/img/logos/URJC.png', alt='')
+                            img.rounded-circle.img-fluid(src='assets/img/about/Imagen1.png', alt='')
                         .timeline-panel
                             .timeline-heading
                                 h4 2018

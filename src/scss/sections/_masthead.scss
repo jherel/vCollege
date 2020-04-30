@@ -4,9 +4,10 @@ header.masthead {
     padding-bottom: 6rem;
     text-align: center;
     color: $white;
+    height: 100%;
     background-image: url("../assets/img/header-bg.jpg");
     background-repeat: no-repeat;
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-position: center center;
     background-size: cover;
     .box {
