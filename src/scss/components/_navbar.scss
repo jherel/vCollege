@@ -1,7 +1,7 @@
 // Styling for the navbar
 #mainNav {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 0;
+    padding-bottom: 0;
     background-color: $gray-900;
     .navbar-toggler {
         padding: 0.75rem;
@@ -19,7 +19,7 @@
         letter-spacing: $headings-letter-spacing;
         text-transform: uppercase;
         img {
-            height: 1.5rem;
+            height: 3rem;
         }
     }
     .navbar-nav {
@@ -41,8 +41,8 @@
 // Responsive styling for screen width equal to or greater than the large breakpoint
 @include media-breakpoint-up(lg) {
     #mainNav {
-        padding-top: 1.5rem;
-        padding-bottom: 1.5rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
         border: none;
         background-color: fade-out($gray-900, 0.7);
         transition: padding-top 0.3s ease-in-out,
@@ -51,7 +51,7 @@
             font-size: 1.5em;
             transition: font-size 0.3s ease-in-out;
             img {
-                height: 2rem;
+                height: 3rem;
                 transition: height 0.3s ease-in-out;
             }
         }
@@ -64,7 +64,7 @@
                 font-size: 1.25em;
                 svg,
                 img {
-                    height: 1.5rem;
+                    height: 2.5rem;
                 }
             }
         }
